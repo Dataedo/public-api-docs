@@ -2946,6 +2946,89 @@
         }
       }
     },
+    "/public/v1/lineage": {
+      "post": {
+        "tags": [
+          "OpenLineageV1"
+        ],
+        "summary": "Creates an OpenLineage run event.",
+        "description": "This endpoint allows sending OpenLineage events to track data lineage.",
+        "requestBody": {
+          "description": "The OpenLineage event data",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.EventData"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.EventData"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.EventData"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Successful creation of the OpenLineage event.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Responses.CreateOpenLineageEventResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Responses.CreateOpenLineageEventResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Responses.CreateOpenLineageEventResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid input.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Dataedo.Persistence.Common.Errors.ApplicationError"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Dataedo.Persistence.Common.Errors.ApplicationError"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Dataedo.Persistence.Common.Errors.ApplicationError"
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized access."
+          }
+        }
+      }
+    },
     "/public/v1/programs/{id}": {
       "get": {
         "tags": [
@@ -4086,6 +4169,20 @@
               "type": "string",
               "nullable": true
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Persistence.Common.Errors.ApplicationError": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
             "nullable": true
           }
         },
@@ -5490,6 +5587,305 @@
         },
         "additionalProperties": false,
         "description": "Represents a response containing information about a linked object."
+      },
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.ColumnField": {
+        "type": "object",
+        "properties": {
+          "inputFields": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.InputField"
+            },
+            "nullable": true
+          },
+          "transformationDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "transformationType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.ColumnLineage": {
+        "type": "object",
+        "properties": {
+          "_producer": {
+            "type": "string",
+            "nullable": true
+          },
+          "_schemaURL": {
+            "type": "string",
+            "nullable": true
+          },
+          "fields": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.ColumnField"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.DatasetFacet": {
+        "type": "object",
+        "properties": {
+          "schema": {
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Schema"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.EventData": {
+        "type": "object",
+        "properties": {
+          "job": {
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Job"
+          },
+          "run": {
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Run"
+          },
+          "eventTime": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "eventType": {
+            "type": "string",
+            "nullable": true
+          },
+          "producer": {
+            "type": "string",
+            "nullable": true
+          },
+          "schemaURL": {
+            "type": "string",
+            "nullable": true
+          },
+          "inputs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Input"
+            },
+            "nullable": true
+          },
+          "outputs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Output"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.Field": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "fields": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Field"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.Input": {
+        "type": "object",
+        "properties": {
+          "facets": {
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.DatasetFacet"
+          },
+          "namespace": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.InputField": {
+        "type": "object",
+        "properties": {
+          "field": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "namespace": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.Job": {
+        "type": "object",
+        "properties": {
+          "namespace": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "facets": {
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.JobFacets"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.JobFacets": {
+        "type": "object",
+        "properties": {
+          "jobType": {
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.JobType"
+          },
+          "sql": {
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.JobSql"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.JobSql": {
+        "type": "object",
+        "properties": {
+          "_producer": {
+            "type": "string",
+            "format": "uri",
+            "nullable": true
+          },
+          "_schemaURL": {
+            "type": "string",
+            "format": "uri",
+            "nullable": true
+          },
+          "query": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.JobType": {
+        "type": "object",
+        "properties": {
+          "_producer": {
+            "type": "string",
+            "format": "uri",
+            "nullable": true
+          },
+          "_schemaURL": {
+            "type": "string",
+            "format": "uri",
+            "nullable": true
+          },
+          "integration": {
+            "type": "string",
+            "nullable": true
+          },
+          "jobType": {
+            "type": "string",
+            "nullable": true
+          },
+          "processingType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.Output": {
+        "type": "object",
+        "properties": {
+          "facets": {
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.OutputFacets"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "namespace": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.OutputFacets": {
+        "type": "object",
+        "properties": {
+          "columnLineage": {
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.ColumnLineage"
+          },
+          "schema": {
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Schema"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.Responses.CreateOpenLineageEventResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "OpenLineage event entity id in Dataedo repository.",
+            "format": "int32",
+            "example": 1
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.Run": {
+        "type": "object",
+        "properties": {
+          "runId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.Schema": {
+        "type": "object",
+        "properties": {
+          "_producer": {
+            "type": "string",
+            "nullable": true
+          },
+          "_schemaURL": {
+            "type": "string",
+            "nullable": true
+          },
+          "fields": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Field"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
       },
       "Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.ParameterProperties": {
         "type": "object",
