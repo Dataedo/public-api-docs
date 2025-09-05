@@ -38,17 +38,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response"
                 }
               }
             }
@@ -90,17 +90,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Areas.DetailedAreaResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Areas.DetailedAreaV1Response"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Areas.DetailedAreaResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Areas.DetailedAreaV1Response"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Areas.DetailedAreaResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Areas.DetailedAreaV1Response"
                 }
               }
             }
@@ -175,17 +175,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectV1Response]"
                 }
               }
             }
@@ -226,17 +226,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             }
           }
@@ -281,17 +281,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               }
             }
@@ -331,17 +331,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             }
           },
@@ -388,17 +388,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnV1Response"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnV1Response"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnV1Response"
                 }
               }
             }
@@ -440,17 +440,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.DetailedColumnResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.DetailedColumnV1Response"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.DetailedColumnResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.DetailedColumnV1Response"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.DetailedColumnResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.DetailedColumnV1Response"
                 }
               }
             }
@@ -491,17 +491,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response]"
                 }
               }
             }
@@ -539,17 +539,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.UpdateDescriptionRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.UpdateDescriptionV1Request"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.UpdateDescriptionRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.UpdateDescriptionV1Request"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.UpdateDescriptionRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.UpdateDescriptionV1Request"
               }
             }
           },
@@ -595,17 +595,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             }
           },
@@ -651,17 +651,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               }
             }
@@ -701,17 +701,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             }
           },
@@ -746,17 +746,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldV1Response]"
                 }
               }
             }
@@ -798,17 +798,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetV1Response"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetV1Response"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetV1Response"
                 }
               }
             }
@@ -850,17 +850,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.DetailedDataSetResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.DetailedDataSetV1Response"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.DetailedDataSetResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.DetailedDataSetV1Response"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.DetailedDataSetResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.DetailedDataSetV1Response"
                 }
               }
             }
@@ -901,17 +901,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response]"
                 }
               }
             }
@@ -949,17 +949,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               }
             }
@@ -997,17 +997,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response]"
                 }
               }
             }
@@ -1079,17 +1079,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnV1Response]"
                 }
               }
             }
@@ -1127,17 +1127,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             }
           },
@@ -1183,17 +1183,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               }
             }
@@ -1233,17 +1233,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             }
           },
@@ -1290,17 +1290,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceV1Response"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceV1Response"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceV1Response"
                 }
               }
             }
@@ -1342,17 +1342,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.DetailedDataSourceResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.DetailedDataSourceV1Response"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.DetailedDataSourceResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.DetailedDataSourceV1Response"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.DetailedDataSourceResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.DetailedDataSourceV1Response"
                 }
               }
             }
@@ -1417,17 +1417,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceV1Response]"
                 }
               }
             }
@@ -1502,17 +1502,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetV1Response]"
                 }
               }
             }
@@ -1584,17 +1584,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramV1Response]"
                 }
               }
             }
@@ -1666,17 +1666,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramV1Response]"
                 }
               }
             }
@@ -1714,17 +1714,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response]"
                 }
               }
             }
@@ -1762,17 +1762,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               }
             }
@@ -1810,17 +1810,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             }
           },
@@ -1866,17 +1866,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               }
             }
@@ -1916,17 +1916,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             }
           },
@@ -1973,17 +1973,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response"
                 }
               }
             }
@@ -2100,17 +2100,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceV1Response]"
                 }
               }
             }
@@ -2151,17 +2151,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               }
             }
@@ -2236,17 +2236,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectV1Response]"
                 }
               }
             }
@@ -2284,17 +2284,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             }
           },
@@ -2340,17 +2340,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               }
             }
@@ -2390,17 +2390,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             }
           },
@@ -2447,17 +2447,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response"
                 }
               }
             }
@@ -2499,17 +2499,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.DetailedGlossaryEntryResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.DetailedGlossaryEntryV1Response"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.DetailedGlossaryEntryResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.DetailedGlossaryEntryV1Response"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.DetailedGlossaryEntryResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.DetailedGlossaryEntryV1Response"
                 }
               }
             }
@@ -2550,17 +2550,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response]"
                 }
               }
             }
@@ -2598,17 +2598,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               }
             }
@@ -2680,17 +2680,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectV1Response]"
                 }
               }
             }
@@ -2728,17 +2728,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             }
           },
@@ -2771,17 +2771,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Application.Features.GlossaryEntries.Services.Commands.AddGlossaryEntryCommand.AddGlossaryEntryCommand"
+                "$ref": "#/components/schemas/Dataedo.Application.PublicApi.Features.GlossaryEntries.Commands.AddGlossaryEntryCommand.AddGlossaryEntryV1Command"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Application.Features.GlossaryEntries.Services.Commands.AddGlossaryEntryCommand.AddGlossaryEntryCommand"
+                "$ref": "#/components/schemas/Dataedo.Application.PublicApi.Features.GlossaryEntries.Commands.AddGlossaryEntryCommand.AddGlossaryEntryV1Command"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Application.Features.GlossaryEntries.Services.Commands.AddGlossaryEntryCommand.AddGlossaryEntryCommand"
+                "$ref": "#/components/schemas/Dataedo.Application.PublicApi.Features.GlossaryEntries.Commands.AddGlossaryEntryCommand.AddGlossaryEntryV1Command"
               }
             }
           },
@@ -2824,17 +2824,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               }
             }
@@ -2874,17 +2874,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             }
           },
@@ -2919,17 +2919,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.GlossaryEntryTypeResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.GlossaryEntryTypeV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.GlossaryEntryTypeResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.GlossaryEntryTypeV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.GlossaryEntryTypeResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.GlossaryEntryTypeV1Response]"
                 }
               }
             }
@@ -2979,17 +2979,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Responses.CreateOpenLineageEventResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Responses.CreateOpenLineageEventV1Response"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Responses.CreateOpenLineageEventResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Responses.CreateOpenLineageEventV1Response"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Responses.CreateOpenLineageEventResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.OpenLineage.Responses.CreateOpenLineageEventV1Response"
                 }
               }
             }
@@ -3001,7 +3001,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Dataedo.Persistence.Common.Errors.ApplicationError"
+                    "$ref": "#/components/schemas/Dataedo.Shared.Tools.Utils.ApplicationError"
                   }
                 }
               },
@@ -3009,7 +3009,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Dataedo.Persistence.Common.Errors.ApplicationError"
+                    "$ref": "#/components/schemas/Dataedo.Shared.Tools.Utils.ApplicationError"
                   }
                 }
               },
@@ -3017,7 +3017,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Dataedo.Persistence.Common.Errors.ApplicationError"
+                    "$ref": "#/components/schemas/Dataedo.Shared.Tools.Utils.ApplicationError"
                   }
                 }
               }
@@ -3054,17 +3054,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramV1Response"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramV1Response"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramV1Response"
                 }
               }
             }
@@ -3157,17 +3157,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response]"
                 }
               }
             }
@@ -3205,17 +3205,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               }
             }
@@ -3253,17 +3253,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response]"
                 }
               }
             }
@@ -3335,17 +3335,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterV1Response]"
                 }
               }
             }
@@ -3383,17 +3383,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             }
           },
@@ -3439,17 +3439,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               }
             }
@@ -3489,17 +3489,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             }
           },
@@ -3546,17 +3546,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Reports.Responses.SimpleReportResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Reports.Responses.SimpleReportV1Response"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Reports.Responses.SimpleReportResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Reports.Responses.SimpleReportV1Response"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Reports.Responses.SimpleReportResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Reports.Responses.SimpleReportV1Response"
                 }
               }
             }
@@ -3598,17 +3598,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Reports.Responses.DetailedReportResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Reports.Responses.DetailedReportV1Response"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Reports.Responses.DetailedReportResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Reports.Responses.DetailedReportV1Response"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Reports.Responses.DetailedReportResponse"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Reports.Responses.DetailedReportV1Response"
                 }
               }
             }
@@ -3649,17 +3649,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response]"
                 }
               }
             }
@@ -3697,17 +3697,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]"
                 }
               }
             }
@@ -3745,17 +3745,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response]"
                 }
               }
             }
@@ -3827,17 +3827,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterV1Response]"
                 }
               }
             }
@@ -3909,17 +3909,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnV1Response]"
                 }
               }
             }
@@ -3957,17 +3957,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command"
               }
             }
           },
@@ -4013,17 +4013,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
                 }
               }
             }
@@ -4063,22 +4063,91 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection"
+                "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1"
               }
             }
           },
           "required": true
         },
+        "responses": {
+          "200": {
+            "description": "Successful operation."
+          },
+          "400": {
+            "description": "Invalid input."
+          },
+          "401": {
+            "description": "Unauthorized access."
+          },
+          "404": {
+            "description": "Not found."
+          }
+        }
+      }
+    },
+    "/public/v1/scheduler/tasks": {
+      "get": {
+        "tags": [
+          "SchedulerV1"
+        ],
+        "summary": "Gets all scheduler tasks.",
+        "description": "Returns a list of all scheduler tasks.",
+        "responses": {
+          "200": {
+            "description": "Successful operation.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Scheduler.SchedulerTaskV1Response]"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Scheduler.SchedulerTaskV1Response]"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Scheduler.SchedulerTaskV1Response]"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized access."
+          }
+        }
+      }
+    },
+    "/public/v1/scheduler/tasks/{taskId}/trigger": {
+      "post": {
+        "tags": [
+          "SchedulerV1"
+        ],
+        "summary": "Triggers a scheduler task.",
+        "description": "Triggers a scheduler task by Id.",
+        "parameters": [
+          {
+            "name": "taskId",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "Successful operation."
@@ -4108,17 +4177,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.WorkflowStatuses.WorkflowStatusResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.WorkflowStatuses.WorkflowStatusV1Response]"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.WorkflowStatuses.WorkflowStatusResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.WorkflowStatuses.WorkflowStatusV1Response]"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.WorkflowStatuses.WorkflowStatusResponse]"
+                  "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.WorkflowStatuses.WorkflowStatusV1Response]"
                 }
               }
             }
@@ -4135,7 +4204,7 @@
   },
   "components": {
     "schemas": {
-      "Dataedo.Application.Features.GlossaryEntries.Services.Commands.AddGlossaryEntryCommand.AddGlossaryEntryCommand": {
+      "Dataedo.Application.PublicApi.Features.GlossaryEntries.Commands.AddGlossaryEntryCommand.AddGlossaryEntryV1Command": {
         "type": "object",
         "properties": {
           "title": {
@@ -4174,177 +4243,176 @@
         },
         "additionalProperties": false
       },
-      "Dataedo.Persistence.Common.Errors.ApplicationError": {
-        "type": "object",
-        "properties": {
-          "code": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse]": {
+      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response]": {
         "type": "object",
         "properties": {
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse"
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response"
             },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnResponse]": {
+      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnV1Response]": {
         "type": "object",
         "properties": {
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnResponse"
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnV1Response"
             },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldResponse]": {
+      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldV1Response]": {
         "type": "object",
         "properties": {
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldResponse"
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldV1Response"
             },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetResponse]": {
+      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetV1Response]": {
         "type": "object",
         "properties": {
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetResponse"
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetV1Response"
             },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceResponse]": {
+      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceV1Response]": {
         "type": "object",
         "properties": {
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceResponse"
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceV1Response"
             },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse]": {
+      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response]": {
         "type": "object",
         "properties": {
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse"
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response"
             },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.GlossaryEntryTypeResponse]": {
+      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.GlossaryEntryTypeV1Response]": {
         "type": "object",
         "properties": {
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.GlossaryEntryTypeResponse"
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.GlossaryEntryTypeV1Response"
             },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse]": {
+      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response]": {
         "type": "object",
         "properties": {
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse"
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response"
             },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectResponse]": {
+      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectV1Response]": {
         "type": "object",
         "properties": {
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectResponse"
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectV1Response"
             },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterResponse]": {
+      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterV1Response]": {
         "type": "object",
         "properties": {
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterResponse"
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterV1Response"
             },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramResponse]": {
+      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramV1Response]": {
         "type": "object",
         "properties": {
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramResponse"
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramV1Response"
             },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.WorkflowStatuses.WorkflowStatusResponse]": {
+      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.Scheduler.SchedulerTaskV1Response]": {
         "type": "object",
         "properties": {
           "items": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.WorkflowStatuses.WorkflowStatusResponse"
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Scheduler.SchedulerTaskV1Response"
             },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Common.DescriptionPlainResponse": {
+      "Dataedo.Public.Models.Public.v1.Common.CollectionResponse`1[Dataedo.Public.Models.Public.v1.Features.WorkflowStatuses.WorkflowStatusV1Response]": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.WorkflowStatuses.WorkflowStatusV1Response"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Common.DescriptionPlainV1Response": {
         "type": "object",
         "properties": {
           "plain": {
@@ -4355,7 +4423,7 @@
           },
           "plainShort": {
             "type": "string",
-            "description": "Short version of Dataedo.Public.Models.Public.v1.Common.DescriptionPlainResponse.Plain.",
+            "description": "Short version of Dataedo.Public.Models.Public.v1.Common.DescriptionPlainV1Response.Plain.",
             "nullable": true,
             "readOnly": true,
             "example": "Lorem Ipsum is simply dummy text of the printing and typesetting indus..."
@@ -4364,7 +4432,7 @@
         "additionalProperties": false,
         "description": "Description of the requested object. It contains plain text description only."
       },
-      "Dataedo.Public.Models.Public.v1.Common.MetadataResponse": {
+      "Dataedo.Public.Models.Public.v1.Common.MetadataV1Response": {
         "type": "object",
         "properties": {
           "creationDate": {
@@ -4402,7 +4470,7 @@
         "additionalProperties": false,
         "description": "The class providing the record metadata (creation and modification information)."
       },
-      "Dataedo.Public.Models.Public.v1.Common.ObjectMetadataResponse": {
+      "Dataedo.Public.Models.Public.v1.Common.ObjectMetadataV1Response": {
         "type": "object",
         "properties": {
           "creationDate": {
@@ -4467,7 +4535,7 @@
         "additionalProperties": false,
         "description": "The class providing metadata (creation in DBMS, import, creation and modification information)."
       },
-      "Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleRequest": {
+      "Dataedo.Public.Models.Public.v1.Common.Requests.UpdateTitleV1Command": {
         "type": "object",
         "properties": {
           "title": {
@@ -4477,7 +4545,7 @@
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.Areas.DetailedAreaResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.Areas.DetailedAreaV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -4506,15 +4574,15 @@
             "example": "Platform"
           },
           "descriptionPlain": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainV1Response"
           },
           "metadata": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataV1Response"
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.Areas.SimpleAreaV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -4545,7 +4613,7 @@
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.Columns.Responses.ColumnProperties": {
+      "Dataedo.Public.Models.Public.v1.Features.Columns.Responses.ColumnPropertiesV1": {
         "type": "object",
         "properties": {
           "dataType": {
@@ -4627,7 +4695,7 @@
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.Columns.Responses.DetailedColumnResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.Columns.Responses.DetailedColumnV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -4683,18 +4751,18 @@
             "example": "Street"
           },
           "properties": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.ColumnProperties"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.ColumnPropertiesV1"
           },
           "descriptionPlain": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainV1Response"
           },
           "metadata": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataV1Response"
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.Columns.Responses.SimpleColumnV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -4750,12 +4818,12 @@
             "example": "Street"
           },
           "properties": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.ColumnProperties"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Columns.Responses.ColumnPropertiesV1"
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.Columns.Responses.UpdateDescriptionRequest": {
+      "Dataedo.Public.Models.Public.v1.Features.Columns.Responses.UpdateDescriptionV1Request": {
         "type": "object",
         "properties": {
           "description": {
@@ -4787,12 +4855,12 @@
             "example": "LIST_OPEN"
           },
           "metadata": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataV1Response"
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollection": {
+      "Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldCollectionV1": {
         "type": "object",
         "properties": {
           "fields": {
@@ -4823,7 +4891,7 @@
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -4888,7 +4956,7 @@
             "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.CustomFields.CustomFieldVisibilityResponse"
           },
           "metadata": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataV1Response"
           }
         },
         "additionalProperties": false
@@ -4985,6 +5053,12 @@
             "description": "Is field available for lineage.",
             "nullable": true,
             "example": true
+          },
+          "dataProductVisibility": {
+            "type": "boolean",
+            "description": "Is field available for data product.",
+            "nullable": true,
+            "example": true
           }
         },
         "additionalProperties": false
@@ -5070,7 +5144,7 @@
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.DetailedDataSetResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.DetailedDataSetV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -5139,15 +5213,15 @@
             "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.DataSetProperties"
           },
           "descriptionPlain": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainV1Response"
           },
           "metadata": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.ObjectMetadataResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.ObjectMetadataV1Response"
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.DataSets.Responses.SimpleDataSetV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -5219,7 +5293,7 @@
         "additionalProperties": false,
         "description": "This class is used to describe the simple data set response. It contains only the basic information about the table."
       },
-      "Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.DetailedDataSourceResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.DetailedDataSourceV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -5263,38 +5337,39 @@
             "nullable": true
           },
           "filter": {
-            "type": "string",
-            "description": "Import filter definition saved in XML format.",
-            "nullable": true
+            "$ref": "#/components/schemas/Dataedo.Repository.EntityFrameworkModel.Models.Filter"
           },
           "authenticationDatabase": {
             "type": "string",
-            "description": "Name of the database to authenticate the user in.",
-            "nullable": true
+            "description": "This property is obsolete and will always return default value.",
+            "nullable": true,
+            "readOnly": true
           },
           "replicaSet": {
             "type": "string",
-            "description": "Replica set name.",
-            "nullable": true
+            "description": "This property is obsolete and will always return default value.",
+            "nullable": true,
+            "readOnly": true
           },
           "perspectiveName": {
             "type": "string",
-            "description": "Perspective name of SSAS Tabular Model.",
-            "nullable": true
+            "description": "This property is obsolete and will always return default value.",
+            "nullable": true,
+            "readOnly": true
           },
           "descriptionPlain": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainV1Response"
           },
           "metadata": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataV1Response"
           },
           "schemaSettings": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SchemaSettingsResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SchemaSettingsV1Response"
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SchemaSettingsResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SchemaSettingsV1Response": {
         "type": "object",
         "properties": {
           "showSchema": {
@@ -5311,9 +5386,9 @@
           },
           "differentSchema": {
             "type": "boolean",
-            "description": "Used for Oracle: 1 if user selected schema different than user, 0 otherwise.",
+            "description": "This property is obsolete and will always return default value.",
             "nullable": true,
-            "example": false
+            "readOnly": true
           },
           "multipleSchemas": {
             "type": "boolean",
@@ -5324,7 +5399,7 @@
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.DataSources.Responses.SimpleDataSourceV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -5383,15 +5458,15 @@
             "example": "DATA"
           },
           "descriptionPlain": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainV1Response"
           },
           "metadata": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataV1Response"
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.Domains.SimpleDomainV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -5416,7 +5491,7 @@
         "additionalProperties": false,
         "description": "This class is used to describe the simple program response. It contains only the basic information about the program."
       },
-      "Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.DetailedGlossaryEntryResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.DetailedGlossaryEntryV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -5451,21 +5526,21 @@
             "example": 1
           },
           "type": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.GlossaryEntryTypeResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.GlossaryEntryTypeV1Response"
           },
           "parent": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response"
           },
           "descriptionPlain": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainV1Response"
           },
           "metadata": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataV1Response"
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.GlossaryEntryTypeResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.GlossaryEntryTypeV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -5493,12 +5568,12 @@
             "example": "Entities"
           },
           "metadata": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataV1Response"
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.SimpleGlossaryEntryV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -5533,13 +5608,13 @@
             "example": 1
           },
           "type": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.GlossaryEntryTypeResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.GlossaryEntries.GlossaryEntryTypeV1Response"
           }
         },
         "additionalProperties": false,
         "description": "This class is used to describe the simple program response. It contains only the basic information about the program."
       },
-      "Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.LinkedObjects.LinkedObjectV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -5844,7 +5919,7 @@
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.Responses.CreateOpenLineageEventResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.OpenLineage.Responses.CreateOpenLineageEventV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -5929,7 +6004,7 @@
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.SimpleParameterV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -5951,10 +6026,10 @@
             "example": 1
           },
           "descriptionPlain": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainV1Response"
           },
           "metadata": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.MetadataV1Response"
           },
           "properties": {
             "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Parameters.Responses.ParameterProperties"
@@ -6031,10 +6106,10 @@
             "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Programs.Responses.ProgramProperties"
           },
           "descriptionPlain": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainV1Response"
           },
           "metadata": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.ObjectMetadataResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.ObjectMetadataV1Response"
           }
         },
         "additionalProperties": false
@@ -6088,7 +6163,7 @@
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.Programs.Responses.SimpleProgramV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -6207,7 +6282,7 @@
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.Reports.Responses.DetailedReportResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.Reports.Responses.DetailedReportV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -6256,15 +6331,15 @@
             "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Features.Reports.ReportProperties"
           },
           "descriptionPlain": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.DescriptionPlainV1Response"
           },
           "metadata": {
-            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.ObjectMetadataResponse"
+            "$ref": "#/components/schemas/Dataedo.Public.Models.Public.v1.Common.ObjectMetadataV1Response"
           }
         },
         "additionalProperties": false
       },
-      "Dataedo.Public.Models.Public.v1.Features.Reports.Responses.SimpleReportResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.Reports.Responses.SimpleReportV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -6316,7 +6391,46 @@
         "additionalProperties": false,
         "description": "This class is used to describe the simple report response. It contains only the basic information about the report entity."
       },
-      "Dataedo.Public.Models.Public.v1.Features.WorkflowStatuses.WorkflowStatusResponse": {
+      "Dataedo.Public.Models.Public.v1.Features.Scheduler.SchedulerTaskV1Response": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Scheduler task entity id in Dataedo repository.",
+            "format": "int32",
+            "example": 1
+          },
+          "databaseId": {
+            "type": "integer",
+            "description": "Database id in Dataedo repository.",
+            "format": "int32",
+            "example": 1
+          },
+          "type": {
+            "type": "string",
+            "description": "The type of job that this scheduler task represents.\r\nDefines what kind of operation will be performed when the task executes.",
+            "nullable": true,
+            "example": "DataQuality"
+          },
+          "enabled": {
+            "type": "boolean",
+            "description": "Indicates whether the scheduler task is currently enabled and will be executed according to its schedule.\r\nWhen false, the task is disabled and will not run automatically.",
+            "example": true
+          },
+          "parameters": {
+            "type": "string",
+            "description": "JSON string containing the configuration parameters specific to this scheduler task.\r\nThe structure and content depend on the task type and define how the task should be executed.",
+            "nullable": true
+          },
+          "repeatability": {
+            "type": "string",
+            "description": "Defines the schedule pattern for when this task should be executed.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Public.Models.Public.v1.Features.WorkflowStatuses.WorkflowStatusV1Response": {
         "type": "object",
         "properties": {
           "id": {
@@ -6347,6 +6461,141 @@
             "type": "boolean",
             "description": "Indicates whether the workflow status is published or not.",
             "example": false
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Repository.EntityFrameworkModel.Models.Enums.RuleSource": {
+        "enum": [
+          "User",
+          "SchemaTree"
+        ],
+        "type": "string"
+      },
+      "Dataedo.Repository.EntityFrameworkModel.Models.Enums.RuleType": {
+        "enum": [
+          "Include",
+          "Exclude"
+        ],
+        "type": "string"
+      },
+      "Dataedo.Repository.EntityFrameworkModel.Models.Filter": {
+        "type": "object",
+        "properties": {
+          "rules": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dataedo.Repository.EntityFrameworkModel.Models.FilterRule"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Repository.EntityFrameworkModel.Models.FilterRule": {
+        "type": "object",
+        "properties": {
+          "ruleType": {
+            "$ref": "#/components/schemas/Dataedo.Repository.EntityFrameworkModel.Models.Enums.RuleType"
+          },
+          "objectType": {
+            "$ref": "#/components/schemas/Dataedo.Shared.Enums.SharedObjectTypeEnum+ObjectType"
+          },
+          "schema": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "ruleSource": {
+            "$ref": "#/components/schemas/Dataedo.Repository.EntityFrameworkModel.Models.Enums.RuleSource"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dataedo.Shared.Enums.SharedObjectTypeEnum+ObjectType": {
+        "enum": [
+          "Database",
+          "Function",
+          "Procedure",
+          "Table",
+          "View",
+          "Structure",
+          "Column",
+          "Module",
+          "Folder_Database",
+          "Folder_Domains",
+          "Folder_DataSources",
+          "Folder_Glossaries",
+          "Trigger",
+          "Parameter",
+          "Relation",
+          "Key",
+          "ColumnPK",
+          "UnresolvedEntity",
+          "Dependency",
+          "Script",
+          "Schema",
+          "Glossary",
+          "Term",
+          "TermRelationship",
+          "DataLink",
+          "Erd",
+          "Repository",
+          "Report",
+          "Dataset",
+          "SqlQuery",
+          "Lookup",
+          "LookupValue",
+          "Domain",
+          "Area",
+          "GraphNode",
+          "GraphEdge",
+          "SearchIndex",
+          "Cube",
+          "Dimension",
+          "Entity",
+          "Topic",
+          "DataType",
+          "Sequence",
+          "AppList",
+          "Form",
+          "Source",
+          "Destination",
+          "SqlScript",
+          "Package",
+          "ETLProgram",
+          "Program",
+          "API",
+          "Job",
+          "Dashboard",
+          "Visualization",
+          "LinkedSource",
+          "ColumnDataFlow",
+          "PortalDashboard",
+          "PortalDashboardVisualization",
+          "PortalDashboardDataset",
+          "DataChangeTracking",
+          "Reporting",
+          "DataProduct",
+          "Dataflow",
+          "Endpoint",
+          "Model"
+        ],
+        "type": "string"
+      },
+      "Dataedo.Shared.Tools.Utils.ApplicationError": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
